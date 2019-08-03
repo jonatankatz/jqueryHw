@@ -1,6 +1,7 @@
 .boxing{ 
         border: solid 2px black;
         height: 100px;
+        width: 340px;
         margin: 20px;
      }
 
