@@ -1,0 +1,13 @@
+.boxing{ 
+        border: solid 2px black;
+        height: 100px;
+        margin: 20px;
+     }
+
+.red {
+    background-color: red
+}
+
+.blue {
+    background-color: blue
+}
