@@ -5,12 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Functions</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <script src="selectors/jquery.js"></script>
-    <script src="selectors/index.js"></script>
+    <div class="container mt-5">
+        <div class="row ">
+                <div class="divSize table-bordered">
+                    <div class="text-center mt-4" >
+                        <form id="targetName">
+                        <input type="text" id="firstName" name="firstName" placeholder="First name">
+                        </form>
+                    </div>
+                </div>
+               <div class="divSize  table-bordered">
+                    <div class="text-center mt-4" >
+                        <button id="btnCfirstName" class="btn btn-info">Copy</button>
+                    </div>
+                </div>
+                  <div class="divSize table-bordered">
+                    <div  class="text-center mt-4" >
+                        <p id="FirstNameCont"> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row ">
+                    <div class="divSize table-bordered">
+                        <div class="text-center mt-4">
+                            <form id="targetLastName">
+                            <input type="text" id="lastName" name="lastName" placeholder="last name">
+                        </form>
+                        </div>
+                    </div>
+                   <div class="divSize  table-bordered">
+                        <div class="text-center mt-4">
+                            <button id="btnClastName" class="btn btn-info">Copy</button>
+                        </div>
+                    </div>
+                      <div class="divSize table-bordered">
+                        <div  class="text-center mt-4"  >
+                            <p id="lastNameCont"> </p>
+                        </div>
+                    </div>
+                </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
