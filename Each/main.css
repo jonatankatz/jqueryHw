@@ -1,0 +1,16 @@
+.divSize{
+    height: 100px;
+    width: 340px;
+    margin: 20px;
+
+}
+.size{ height: 100%;
+width: 100%}
+.boxing{ 
+        border: solid 2px black;
+     }
+
+.red {
+    background-color: rgb(255, 187, 0)
+}
+
